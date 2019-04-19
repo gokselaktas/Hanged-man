@@ -56,7 +56,7 @@ def copadam(turns):
             "           \n"
             "           \n"
             "           \n"
-            " _         \n",
+            "           \n",
 
             "            \n"
             "  |         \n"
@@ -81,7 +81,7 @@ def copadam(turns):
 
             "  _______   \n"
             "  | /   '   \n"
-            "  |/    '   \n"
+            "  |/        \n"
             "  |         \n"
             "  |         \n"
             " _|         \n",
@@ -130,13 +130,12 @@ def copadam(turns):
             " _|         \n",
 
             ]
-    #0,1,2,3,4,5,6,7,8,9,10 ~ len(copadam)=11
     print(turns,"hakkiniz kaldi.")
     print(copadam[10-turns])
 
 
 guesses = ''
-turns = 11
+turns = 10
 while turns>0:
     failed=0
     for char in word:
